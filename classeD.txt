@@ -8,7 +8,8 @@ class D {
 		string D2;
 	public:
 		void MD1();
-		void MD2(); 	
+		void MD2();
+		void MD4();
 };
 
 void D::MD1(){
@@ -19,11 +20,16 @@ void D::MD2(){
 	cout << "O nome do metodo eh MD2" << endl;	
 }
 
+void D::MD4(){
+	cout << "O nome do metodo eh MD4" << endl;	
+}
+
 int main(){
 	D meuMetodo;
 
 	meuMetodo.MD1();
 	meuMetodo.MD2();
+	meuMetodo.MD4();
 
 	return 0;
 }
