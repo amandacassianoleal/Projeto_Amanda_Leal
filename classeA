@@ -1,0 +1,40 @@
+#include <iostream>
+using namespace std;
+
+class A {
+	private: 
+		int A1;
+		float A2;
+	public:
+		void MA1();
+		void MA2();
+		void setA1(const int& var) {
+			A1 = var;
+		}
+		int getA1() {
+			return A1;
+		}  
+    void setA2(const int& var) {
+			A2 = var;
+		}
+		int getA2() {
+			return A2;
+		}
+};
+
+void A::MA1(){
+	cout << "O nome do metodo eh MA1" << endl;
+}
+
+void A::MA2(){
+	cout << "O nome do metodo eh MA2" << endl;	
+}
+
+int main(){
+	A meuMetodo;
+
+	meuMetodo.MA1();
+	meuMetodo.MA2();
+
+	return 0;
+}
