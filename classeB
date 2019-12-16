@@ -8,6 +8,7 @@ class B {
 	public:
 		void MB1();
 		void MB2();
+		void MB3();
 		void setB1(const int& var) {
 			B1 = var;
 		}
@@ -30,11 +31,16 @@ void B::MB2(){
 	cout << "O nome do metodo eh MB2" << endl;	
 }
 
+void B::MB3(){
+	cout << "O nome do metodo eh MB3" << endl;	
+}
+
 int main(){
 	B meuMetodo;
 
 	meuMetodo.MB1();
 	meuMetodo.MB2();
+	meuMetodo.MB3();
 
 	return 0;
 }
