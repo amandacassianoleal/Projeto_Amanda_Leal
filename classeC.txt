@@ -9,6 +9,7 @@ class C {
 	public:
 		void MC1();
 		void MC2();
+		void MC3();
     	
 };
 
@@ -20,12 +21,16 @@ void C::MC2(){
 	cout << "O nome do metodo eh MC2" << endl;	
 }
 
+void C::MC3(){
+	cout << "O nome do metodo eh MC3" << endl;	
+}
 
 int main(){
 	C meuMetodo;
 
 	meuMetodo.MC1();
 	meuMetodo.MC2();
+	meuMetodo.MC3();
 
 	return 0;
 }
