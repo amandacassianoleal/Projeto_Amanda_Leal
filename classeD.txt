@@ -1,0 +1,29 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+class D {
+	private: 
+		string D1;
+		string D2;
+	public:
+		void MD1();
+		void MD2(); 	
+};
+
+void D::MD1(){
+	cout << "O nome do metodo eh MD1" << endl;
+}
+
+void D::MD2(){
+	cout << "O nome do metodo eh MD2" << endl;	
+}
+
+int main(){
+	D meuMetodo;
+
+	meuMetodo.MD1();
+	meuMetodo.MD2();
+
+	return 0;
+}
