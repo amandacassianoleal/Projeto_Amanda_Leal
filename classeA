@@ -32,7 +32,7 @@ void A::MA2(){
 }
 
 void A::MA3(){
-	cout << "Alteracao a classe A partir do clone" << endl;	
+	cout << "Alteracao da classe A partir do clone" << endl;	
 }
 
 int main(){
