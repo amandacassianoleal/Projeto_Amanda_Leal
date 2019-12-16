@@ -1,0 +1,31 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+class C {
+	private: 
+		string C1;
+		string C2;
+	public:
+		void MC1();
+		void MC2();
+    	
+};
+
+void C::MC1(){
+	cout << "O nome do metodo eh MC1" << endl;
+}
+
+void C::MC2(){
+	cout << "O nome do metodo eh MC2" << endl;	
+}
+
+
+int main(){
+	C meuMetodo;
+
+	meuMetodo.MC1();
+	meuMetodo.MC2();
+
+	return 0;
+}
